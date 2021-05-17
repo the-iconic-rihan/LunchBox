@@ -1,0 +1,95 @@
+@media screen and (max-width: 1059px) {
+  /* Navigaion */
+  .navbar {
+    flex-direction: column;
+  }
+  #logo {
+    margin: 0px;
+  }
+  ul,
+  li {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+  }
+  /* home section */
+  #home {
+    height: 370px;
+    padding: 5px 68px;
+  }
+  #home::before {
+    height: 380px;
+  }
+  #home p {
+    font-size: 13px;
+  }
+  /* services section */
+  #service-container{
+      margin:12px;
+  }
+  .service {
+    flex-direction: column;
+    margin-left: 40px;;
+  }
+  .service .box{
+    width: 62%;
+    margin: -1px 0px 19px 24px;
+    padding: 13px 17px;
+
+  }
+.h1{
+      margin-bottom: 5px;
+  }
+  /*clients section  */
+  #clients {
+    flex-wrap: wrap;
+  }
+  #clients img {
+    width: 66px;
+    padding: 6px;
+    height: auto;
+  }
+
+  /* contact section */
+  .contact-box {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .form-group {
+    width: auto;
+    font-size: 1rem;
+    display: inline-block;
+
+  }
+  .user-input {
+    width: 47%;
+    padding-right: 18px;
+    margin-left: 10px;
+    display: flex;
+    justify-self: center;
+  }
+  label{
+      justify-content: flex-start;
+      margin-left: 5px;
+  }
+  /* footer */
+footer{
+    flex-flow: column;
+  }
+  footer p{
+    text-align: center;
+  }
+ 
+  /*utility class */
+  .h-primary {
+    font-size: 26px;
+  }
+  .btn {
+    font-size: 13px;
+    padding: 4px 8px;
+  }
+}
