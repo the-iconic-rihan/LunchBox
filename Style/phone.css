@@ -32,11 +32,15 @@
   }
   .service {
     flex-direction: column;
-    margin-left: 40px;;
+    min-width: fit-content;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
   }
   .service .box{
     width: 62%;
-    margin: -1px 0px 19px 24px;
+    margin: -1px 0px 19px 8px;
     padding: 13px 17px;
 
   }
@@ -75,6 +79,7 @@
   label{
       justify-content: flex-start;
       margin-left: 5px;
+      font-size: 1.5rem;
   }
   /* footer */
 footer{
@@ -91,5 +96,12 @@ footer{
   .btn {
     font-size: 13px;
     padding: 4px 8px;
+  }
+}
+
+
+@media screen and (max-width:320px) {
+  .user-input{
+    padding: 3px 84px  
   }
 }
